@@ -11,6 +11,8 @@ addToDoBtn.addEventListener("click", () => {
         counter++;
         // console.log(newTodoItem);
         newTodoItem.innerHTML = `<div><span>(${counter}).</span> ${newTodoText}<div/>`;
+        newTodoItem.style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans - serif`
+        newTodoItem.style.fontSize = "20px"
         const deleteBtn = document.createElement("button")
         deleteBtn.innerText = "X"
         // console.log(deleteBtn);
