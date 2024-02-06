@@ -33,7 +33,10 @@ addToDoBtn.addEventListener("click", () => {
         newTodoItem.style.padding = "10px";
         newTodoItem.style.margin = "20px"
         newTodoItem.style.borderRadius = "10px"
-
+        deleteBtn.style.backgroundColor = "red"
+        deleteBtn.style.padding = "5px 15px"
+        deleteBtn.style.borderRadius = "5px"
+        deleteBtn.style.color = "white"
 
     }
 })
